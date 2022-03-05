@@ -3,6 +3,7 @@ import * as wa from "@open-wa/wa-automate";
 
 export type ConfigSession = {
   sessionName: string;
+  //   create
 };
 
 type MessageFn = (message: wa.Message) => void;
